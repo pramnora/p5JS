@@ -14,9 +14,9 @@
    //             a different ellipse shape will be drawn.   
    function setup(){createCanvas(640,320);} 
    function draw(){
-     ellipseSize=5; //...variable, sets the ellipse size
+     size=5,sizeX=size,sizeY=size; //...variable, sets the ellipse size
      fill(0,0,0,.5);//...fill the ellipse with the choosen RGB colour(nRed,nGreen,nBlue) + Alpha opacity number(nAlpha) 
-     ellipse(mouseX,mouseY,ellipseSize,ellipseSize); //...draw ellipse shape
+     ellipse(mouseX,mouseY,sizeX,sizeY); //...draw ellipse shape
    }
   </script>
  </head>
