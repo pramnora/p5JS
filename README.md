@@ -22,7 +22,7 @@ http://www.p5js.org
 
 P5JS, reference files can be both viewed online/or, downloaded here...    
 http://www.p5js.org/reference  
-**NOTE**: If you do choose to download and use the 'reference'; then, the code inside of the reference can actually be run/edited/playing with whilst being 'offline'.
+**NOTE**: If you do choose to download and use the 'reference'; then, the code inside of the reference can actually be run/edited/played with whilst being 'offline'.
 
 
 
