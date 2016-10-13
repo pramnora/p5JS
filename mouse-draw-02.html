@@ -27,7 +27,8 @@
    }//...end of setup() function
    function draw(){ //...the function draw() is actually a constantly running loop...
      var size=1,sizeX=size,sizeY=size;   //...set ellipse size: 1
-     var red=0,green=0,blue=0,alpha=.5;
+     var red=0,green=0,blue=0,alpha=.5;  //...set (r,g,b) colour to: black/and, alpha to half way opaque: .5
+     fill(red,green,blue,alpha);         //...set fill colour/opacity level
      if(isMousePressed){
        ellipse(mouseX,mouseY,sizeX,sizeY); //...draw an ellipse shape
      }
