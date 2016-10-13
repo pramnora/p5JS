@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+ <!--
+   PROGRAM: Mouse drawing/Version: 1.0.0
+  LANGUAGE: P5JS/Javascript 'graphics' framework library
+  COMPUTER: Home based desktop PC/Windows 10/Notepad
+  ----------------------------------------------------------
+    AUTHOR: Mr. Paul Ramnora.
+     EMAIL: paul@ramnora.com
+ COPYRIGHT: (c) 2016-, Mr. Paul Ramnora./All rights reserved.
+  ----------------------------------------------------------
+   CREATED: 20:05 13/10/2016
+   UPDATED: 23:01 13/10/2016 
+ -->
+ <head> 
+  <meta charset="utf-8" />
+  <title>P5JS - Mouse drawing/Version: 1.0.1</title>
+  <!--link to P5JS: 2 x scripts-->
+  <script language="javascript" src="libraries/p5.js"></script>
+  <script language="javascript" src="sketch.js"></script>
+  <!--CSS reset stylesheet-->
+  <style>body{padding:0;margin:0;}</style>
+  <script>
+   //*** PROGRAM: Uses the mouse movements to draw a series of ellipses in canvas...
+   function setup(){ //...this function is used to create the canvas to draw on...
+    createCanvas(640,800); //...set canvas size: 640px (height) x 800px (width).
+   }//...end of setup() function
+   function draw(){ //...the function draw() is actually a constantly running loop...
+     var size=1,sizeX=size,sizeY=size;   //...set ellipse size: 1
+     var red=0,green=0,blue=0,alpha=.5;
+     if(isMousePressed){
+       ellipse(mouseX,mouseY,sizeX,sizeY); //...draw an ellipse shape
+     }
+   }//...end of draw() function    
+   //*** NOTE: In this version, you need to 'hold down' the mouse to draw...;
+   //          and, this gives you the option of NOT drawing any line;
+   //          until such time that you've selected a new screen position
+   //          to start drawing from. 
+  </script>
+ </head>
+ <body></body>
+</html>
