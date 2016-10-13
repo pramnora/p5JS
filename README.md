@@ -15,14 +15,24 @@ you can use all different sorts of shapes, including:
 -> ellipse  
 -etc.  
 
+You can also colour in using...
+
+background(r,g,b) //...fills in the background of the shape  
+fill(r,g,b)       //...fills the inside of the shape in  
+stroke(r,g,b)     //...colurs in the shape outline  
+
 **LINKS**
 
 P5JS can be downloaded for FREE from...  
 http://www.p5js.org  
 
-P5JS, reference files can be both viewed online/or, downloaded here...    
+**P5JS Tutorials**
+
+P5JS, 'interactive' reference which can be freely downloaded and used both online/offline.  
 http://www.p5js.org/reference  
-**NOTE**: If you do choose to download and use the 'reference'; then, the code inside of the reference can actually be run/edited/played with whilst being 'offline'.
 
+**YouTube videos**
 
+1.1: Introduction - p5.js Tutorial/(a series of videos...)  
+http://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA
 
