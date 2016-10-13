@@ -20,4 +20,9 @@ you can use all different sorts of shapes, including:
 P5JS can be downloaded for FREE from...  
 http://www.p5js.org  
 
+P5JS, reference files can be both viewed online/or, downloaded here...    
+http://www.p5js.org/reference  
+**NOTE**: If you do choose to download and use the 'reference'; then, the code inside of the reference can actually be run/edited/playing with whilst being 'offline'.
+
+
 
