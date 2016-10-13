@@ -3,7 +3,7 @@ p5JS javascript graphical framework
 
 **EXPLANATION**
 
-P5JS, is a Javascript framework library, which one  first downloads;   
+P5JS, is a 'graphics based' Javascript framework library, which one  first downloads;   
 then, adds to the HTML web page by including a couple of script tags;  
 it will then transform that web page into being a canvas that you can use to draw on;  
 you can use all different sorts of shapes, including:     
@@ -17,9 +17,15 @@ you can use all different sorts of shapes, including:
 
 You can also colour in using...
 
-background(r,g,b) //...fills in the background of the shape  
-fill(r,g,b)       //...fills the inside of the shape in  
-stroke(r,g,b)     //...colurs in the shape outline  
+background(r,g,b); //...fills in the background of the shape  
+fill(r,g,b);       //...fills the inside of the shape in  
+stroke(r,g,b);     //...colours in the shape outline  
+
+**NOTE**: RGB, can be any value within the number range: 0-255.  
+
+You can also do drawing with the mouse using...  
+
+ellipse(mouseX,mouseY,sizeX,sizeY);
 
 **LINKS**
 
