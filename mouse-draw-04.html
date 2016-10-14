@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ <!--
+   PROGRAM: Mouse drawing/Version: 1.0.0
+  LANGUAGE: P5JS/Javascript 'graphics' framework library
+  COMPUTER: Home based desktop PC/Windows 10/Notepad
+  ----------------------------------------------------------
+    AUTHOR: Mr. Paul Ramnora.
+     EMAIL: paul@ramnora.com
+ COPYRIGHT: (c) 2016-, Mr. Paul Ramnora./All rights reserved.
+  ----------------------------------------------------------
+   CREATED: 20:05 13/10/2016
+   UPDATED: 02:25 14/10/2016 
+ -->
+ <head> 
+  <meta charset="utf-8" />
+  <title>P5JS - Mouse drawing/Version: 1.0.1</title>
+  <!--link to P5JS: 2 x scripts-->
+  <script language="javascript" src="libraries/p5.js"></script>
+  <script language="javascript" src="sketch.js"></script>
+  <!--CSS reset stylesheet-->
+  <style>body{padding:0;margin:0;}</style>
+  <script>
+   //*** PROGRAM: Uses the mouse movements to draw a series of ellipses in canvas...
+   function setup(){ //...this function is used to create the canvas to draw on...
+    createCanvas(640,800); //...set canvas size: 640px (height) x 800px (width).
+   }//...end of setup() function
+   function draw(){ //...the function draw() is actually a constantly running loop...
+     var size=10,sizeX=size,sizeY=size;                   //...set ellipse size: 10
+     if(isMousePressed){                                  //...whenever mouse button is pressed; then,...
+       fill(0,0,random(255));                             //...set colour to random blue
+       ellipse(mouseX,mouseY,sizeX,sizeY);                //...draw an ellipse shape
+     }
+   }//...end of draw() function    
+   //*** NOTE: In this version,...
+   //          1: you need to both keep the mouse button pressed down/
+   //             as well as, move the mouse...in order to draw a line.
+   //          2: if the mouse button is lifted up...; then, no line will be drawn;
+   //             which allows you to move the mouse to a different position to start drawing from.
+   //          3: The drawings produced are in effect, 'random' shades of blue.
+  </script>
+ </head>
+ <body></body>
+</html>
