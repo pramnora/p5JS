@@ -7,23 +7,22 @@
   <script language="javascript" src="sketch.js"></script>
   <style>body{padding:0;margin:0;}</style>
   <script>
+   var heightNo=840,widthNo=840,sizeNo=25,blackNo=0,whiteNo=255;
    function setup()
    {
-    var height=840,width=840,white=255;
-    createCanvas(height,width);
-    background(white);
+    createCanvas(heightNo,widthNo);
+    background(whiteNo);
    }
    function draw()
    {
-     var black=0,size=5,sizeX=size,sizeY=size;
+     var black=0,sizeX=sizeNo,sizeY=sizeNo;
      noStroke();
-     fill(black);
+     fill(blackNo);
      ellipse(mouseX,mouseY,sizeX,sizeY);
    }
    function mousePressed()
    {
-    var white=255;
-    background(white);
+    background(whiteNo);
    }
   </script>
  </head>
