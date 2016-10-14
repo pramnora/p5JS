@@ -40,6 +40,9 @@ http://p5js.org/tutorials/
 P5JS Official Reference. An 'interactive' reference which can be freely downloaded and used both online/offline.  
 http://www.p5js.org/reference  
 
+**P5JS Examples***  
+http://www.p5js.org/examples  
+
 **YouTube videos**
 
 1.1: Introduction - p5.js Tutorial/(a series of videos...by Daniel Shiffman)  
