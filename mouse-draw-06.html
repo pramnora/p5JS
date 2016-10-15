@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+  <meta charset="utf-8" />
+  <title>P5JS - Mouse drawing/Version: 1.0.3</title>
+  <script language="javascript" src="libraries/p5.js"></script>
+  <script language="javascript" src="sketch.js"></script>
+  <style>body{padding:0;margin:0;}</style>
+  <script>
+   var heightNo=840,widthNo=840,sizeNo=5,rndDiceNo=0
+   var rndRedColourNo=0,rndGreenColourNo=0,rndBlueColourNo=0,whiteNo=255;
+   function setup()
+   {
+    createCanvas(heightNo,widthNo);
+    background(whiteNo);
+   }
+   function draw()
+   {
+     if (rndDiceNo == 4) getRandomColours();
+     setTheEllipseColour();
+     drawAnEllipse();
+   }
+   function setTheEllipseColour()
+   {
+     fill(rndRedColourNo,rndGreenColourNo,rndBlueColourNo);
+   }
+   function drawAnEllipse()
+   {
+     var sizeX=sizeNo,sizeY=sizeNo;
+     noStroke();
+     ellipse(mouseX,mouseY,sizeX,sizeY);    
+   }
+   function mousePressed()
+   {
+    getRandomColours();
+    changeBackgroundColours();
+   }
+   function getRandomColours()
+   {
+    rndRedColourNo=random(255);
+    rndGreenColourNo=random(255); 
+    rndBlueColourNo=random(255);
+   } 
+   function changeBackgroundColours()
+   {
+    rndDiceNo=parseInt(random(4)+1);
+    if (rndDiceNo == 1) { background(rndRedColourNo,0,0);}    
+    if (rndDiceNo == 2) { background(0,rndGreenColourNo,0);}    
+    if (rndDiceNo == 3) { background(0,0,rndBlueColourNo);}
+   }
+  </script>
+ </head>
+ <body></body>
+</html>
