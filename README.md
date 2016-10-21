@@ -29,8 +29,11 @@ ellipse(mouseX,mouseY,sizeX,sizeY);
 
 **LINKS**
 
-P5JS can be downloaded entirely for FREE from...  
+**P5JS program**    
 http://www.p5js.org  
+
+**P5JS Editor**  
+https://github.com/processing/p5.js-editor
 
 **P5JS Tutorials**
 
@@ -42,9 +45,6 @@ http://www.p5js.org/reference
 
 **P5JS Examples**  
 http://www.p5js.org/examples  
-
-**P5JS Editor**  
-https://github.com/processing/p5.js-editor
 
 **YouTube videos**
 
