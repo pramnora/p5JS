@@ -43,7 +43,7 @@ http://www.p5js.org/reference
 **P5JS Examples**  
 http://www.p5js.org/examples  
 
-**P5JS Editor**
+**P5JS Editor**  
 https://github.com/processing/p5.js-editor
 
 **YouTube videos**
